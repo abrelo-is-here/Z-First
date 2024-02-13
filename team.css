@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+.body{
+    min-width: 100%;
+    height: 100vh;
+    background-color: #f8f9fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.top{
+    display: flex;
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+
+    justify-content: space-between;
+    padding:10px;
+    align-items: center;
+    border-radius: 40px;
+    
+}
+.top h2{
+    margin-left: 10px;
+    font-size: 42px;
+    
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    align-items: center;
+    width:65%; 
+}
+ul li{
+    list-style: none;
+    margin-right: 7px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    
+}
+.top button{
+    display: inline-block;
+    padding: 12px 28px;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #7FFF00, #7FFF00);
+    border: none;
+    border-radius: 40px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.active{
+    color: #7FFF00;
+}
+.main{
+    width: 100%;
+    height: 98%;
+
+}
+.main h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.main .team{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 12px;
+}
+/*-----------------------------kal----------------------------*/
+.kal{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: 25%;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 30px;
+}
+
+
+.kal img{
+    width: 70%;
+    border-radius: 50%;
+    margin-left: 13%;
+    margin-top: 20%;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    
+}
+.kal h2{
+
+    text-align: center;
+    margin-top: 20px;
+}
+.kal p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.social img{
+    width: 40px;
+    opacity: 0.99 ;
+}
+@media (max-width: 1020px) {
+    .top h2{
+        margin-left: 10px;
+        font-size: 32px;
+        
+        color: white;
+    }
+}
